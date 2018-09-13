@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F9F95F5061D10AB40085E3 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB16D17303947DF4DD8AC98E /* Pods_demo.framework */; };
+		3D23AA362148BBAF000B0F2C /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23AA342148BBAE000B0F2C /* FoldingCell.swift */; };
+		3D23AA3A2148BCF0000B0F2C /* foldingCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23AA382148BCF0000B0F2C /* foldingCellTableViewCell.swift */; };
+		3D23AA3B2148BCF0000B0F2C /* foldingCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */; };
 		3D5AEEBD2148A3250023F291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEEBC2148A3250023F291 /* AppDelegate.swift */; };
 		3D5AEEBF2148A3250023F291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEEBE2148A3250023F291 /* ViewController.swift */; };
 		3D5AEEC22148A3250023F291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEEC02148A3250023F291 /* Main.storyboard */; };
 		3D5AEEC42148A3250023F291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEEC32148A3250023F291 /* Assets.xcassets */; };
 		3D5AEEC72148A3250023F291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEEC52148A3250023F291 /* LaunchScreen.storyboard */; };
+		3D5AEED12148B2C20023F291 /* foldingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEECF2148B2C20023F291 /* foldingTableView.swift */; };
+		3D5AEED22148B2C20023F291 /* foldingTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEED02148B2C20023F291 /* foldingTableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F60FBC5495EF14B2B4E1F60 /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		3D23AA332148BBAE000B0F2C /* FoldingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingCell.h; sourceTree = "<group>"; };
+		3D23AA342148BBAE000B0F2C /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		3D23AA382148BCF0000B0F2C /* foldingCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldingCellTableViewCell.swift; sourceTree = "<group>"; };
+		3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foldingCellTableViewCell.xib; sourceTree = "<group>"; };
 		3D5AEEB92148A3250023F291 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5AEEBC2148A3250023F291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D5AEEBE2148A3250023F291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,10 @@
 		3D5AEEC32148A3250023F291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D5AEEC62148A3250023F291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D5AEEC82148A3250023F291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5AEECF2148B2C20023F291 /* foldingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldingTableView.swift; sourceTree = "<group>"; };
+		3D5AEED02148B2C20023F291 /* foldingTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foldingTableView.xib; sourceTree = "<group>"; };
+		5C90F9D94EF0ACCECE7F97B3 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
+		EB16D17303947DF4DD8AC98E /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F9F95F5061D10AB40085E3 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D23AA312148BB97000B0F2C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3D23AA322148BBAE000B0F2C /* FoldingCell */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		3D23AA322148BBAE000B0F2C /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D23AA332148BBAE000B0F2C /* FoldingCell.h */,
+				3D23AA342148BBAE000B0F2C /* FoldingCell.swift */,
+			);
+			path = FoldingCell;
+			sourceTree = "<group>";
+		};
 		3D5AEEB02148A3250023F291 = {
 			isa = PBXGroup;
 			children = (
 				3D5AEEBB2148A3250023F291 /* demo */,
 				3D5AEEBA2148A3250023F291 /* Products */,
+				A5AA77A723A0BFEA64D1A2A3 /* Pods */,
+				EA7AB074E8813FDE3EF4BBDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +89,8 @@
 		3D5AEEBB2148A3250023F291 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				3D23AA312148BB97000B0F2C /* libs */,
+				3D5AEECE2148AC320023F291 /* FoldingCell */,
 				3D5AEEBC2148A3250023F291 /* AppDelegate.swift */,
 				3D5AEEBE2148A3250023F291 /* ViewController.swift */,
 				3D5AEEC02148A3250023F291 /* Main.storyboard */,
@@ -64,6 +101,34 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
+		3D5AEECE2148AC320023F291 /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D5AEECF2148B2C20023F291 /* foldingTableView.swift */,
+				3D5AEED02148B2C20023F291 /* foldingTableView.xib */,
+				3D23AA382148BCF0000B0F2C /* foldingCellTableViewCell.swift */,
+				3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */,
+			);
+			path = FoldingCell;
+			sourceTree = "<group>";
+		};
+		A5AA77A723A0BFEA64D1A2A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F60FBC5495EF14B2B4E1F60 /* Pods-demo.debug.xcconfig */,
+				5C90F9D94EF0ACCECE7F97B3 /* Pods-demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA7AB074E8813FDE3EF4BBDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB16D17303947DF4DD8AC98E /* Pods_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D5AEECB2148A3250023F291 /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
+				AA76CB4F95F3C1028BB794BB /* [CP] Check Pods Manifest.lock */,
 				3D5AEEB52148A3250023F291 /* Sources */,
 				3D5AEEB62148A3250023F291 /* Frameworks */,
 				3D5AEEB72148A3250023F291 /* Resources */,
+				A65E4ACD6C3C8A35D90CFCF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +191,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5AEEC72148A3250023F291 /* LaunchScreen.storyboard in Resources */,
+				3D23AA3B2148BCF0000B0F2C /* foldingCellTableViewCell.xib in Resources */,
 				3D5AEEC42148A3250023F291 /* Assets.xcassets in Resources */,
 				3D5AEEC22148A3250023F291 /* Main.storyboard in Resources */,
+				3D5AEED22148B2C20023F291 /* foldingTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A65E4ACD6C3C8A35D90CFCF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-demo/Pods-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-demo/Pods-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA76CB4F95F3C1028BB794BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D5AEEB52148A3250023F291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D23AA3A2148BCF0000B0F2C /* foldingCellTableViewCell.swift in Sources */,
 				3D5AEEBF2148A3250023F291 /* ViewController.swift in Sources */,
+				3D5AEED12148B2C20023F291 /* foldingTableView.swift in Sources */,
 				3D5AEEBD2148A3250023F291 /* AppDelegate.swift in Sources */,
+				3D23AA362148BBAF000B0F2C /* FoldingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +397,12 @@
 		};
 		3D5AEECC2148A3250023F291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F60FBC5495EF14B2B4E1F60 /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mengzi.demo.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +413,12 @@
 		};
 		3D5AEECD2148A3250023F291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C90F9D94EF0ACCECE7F97B3 /* Pods-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mengzi.demo.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
