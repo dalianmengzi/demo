@@ -11,6 +11,8 @@
 		3D23AA362148BBAF000B0F2C /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23AA342148BBAE000B0F2C /* FoldingCell.swift */; };
 		3D23AA3A2148BCF0000B0F2C /* foldingCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D23AA382148BCF0000B0F2C /* foldingCellTableViewCell.swift */; };
 		3D23AA3B2148BCF0000B0F2C /* foldingCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */; };
+		3D45FDE92149EE4900655F07 /* demoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FDE72149EE4900655F07 /* demoCell.swift */; };
+		3D45FDEA2149EE4900655F07 /* demoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D45FDE82149EE4900655F07 /* demoCell.xib */; };
 		3D5AEEBD2148A3250023F291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEEBC2148A3250023F291 /* AppDelegate.swift */; };
 		3D5AEEBF2148A3250023F291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEEBE2148A3250023F291 /* ViewController.swift */; };
 		3D5AEEC22148A3250023F291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEEC02148A3250023F291 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		3D23AA342148BBAE000B0F2C /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
 		3D23AA382148BCF0000B0F2C /* foldingCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldingCellTableViewCell.swift; sourceTree = "<group>"; };
 		3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foldingCellTableViewCell.xib; sourceTree = "<group>"; };
+		3D45FDE72149EE4900655F07 /* demoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoCell.swift; sourceTree = "<group>"; };
+		3D45FDE82149EE4900655F07 /* demoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = demoCell.xib; sourceTree = "<group>"; };
 		3D5AEEB92148A3250023F291 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5AEEBC2148A3250023F291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D5AEEBE2148A3250023F291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			children = (
 				3D23AA332148BBAE000B0F2C /* FoldingCell.h */,
 				3D23AA342148BBAE000B0F2C /* FoldingCell.swift */,
+				3D45FDE72149EE4900655F07 /* demoCell.swift */,
+				3D45FDE82149EE4900655F07 /* demoCell.xib */,
 			);
 			path = FoldingCell;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D45FDEA2149EE4900655F07 /* demoCell.xib in Resources */,
 				3D5AEEC72148A3250023F291 /* LaunchScreen.storyboard in Resources */,
 				3D23AA3B2148BCF0000B0F2C /* foldingCellTableViewCell.xib in Resources */,
 				3D5AEEC42148A3250023F291 /* Assets.xcassets in Resources */,
@@ -262,6 +269,7 @@
 				3D5AEEBF2148A3250023F291 /* ViewController.swift in Sources */,
 				3D5AEED12148B2C20023F291 /* foldingTableView.swift in Sources */,
 				3D5AEEBD2148A3250023F291 /* AppDelegate.swift in Sources */,
+				3D45FDE92149EE4900655F07 /* demoCell.swift in Sources */,
 				3D23AA362148BBAF000B0F2C /* FoldingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

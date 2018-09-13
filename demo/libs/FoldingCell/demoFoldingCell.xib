@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="demoFoldingCell" rowHeight="667" id="Oho-xV-yxy" customClass="foldingCellTableViewCell" customModule="demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oho-xV-yxy" id="1AO-rv-2gb">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="666.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UHj-nC-MvI" userLabel="Foreground" customClass="RotatedView" customModule="FoldingCell">
+                        <rect key="frame" x="20" y="7" width="560" height="165"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="165" id="lKI-vL-4wt"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2HK-Gs-LnO" userLabel="Container">
+                        <rect key="frame" x="20" y="180" width="560" height="479"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="479" id="XTy-Fy-Kd0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="2HK-Gs-LnO" secondAttribute="trailing" constant="20" id="2eR-od-QCv"/>
+                    <constraint firstItem="UHj-nC-MvI" firstAttribute="top" secondItem="1AO-rv-2gb" secondAttribute="top" constant="7" identifier="ForegroundViewTop" id="9eD-Rq-6JZ"/>
+                    <constraint firstItem="2HK-Gs-LnO" firstAttribute="top" secondItem="1AO-rv-2gb" secondAttribute="top" constant="180" identifier="ContainerViewTop" id="Ii1-Hb-HNk"/>
+                    <constraint firstItem="2HK-Gs-LnO" firstAttribute="leading" secondItem="1AO-rv-2gb" secondAttribute="leading" constant="20" id="TxC-kg-jDP"/>
+                    <constraint firstAttribute="trailing" secondItem="UHj-nC-MvI" secondAttribute="trailing" constant="20" id="X50-nh-xVE"/>
+                    <constraint firstItem="UHj-nC-MvI" firstAttribute="leading" secondItem="1AO-rv-2gb" secondAttribute="leading" constant="20" id="fec-oP-RSo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.91372549020000005" green="0.85277035359999998" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="backViewColor">
+                    <color key="value" red="0.96862745100000003" green="0.93725490199999995" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="itemCount">
+                    <integer key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="containerView" destination="2HK-Gs-LnO" id="ycQ-qM-Y22"/>
+                <outlet property="containerViewTop" destination="Ii1-Hb-HNk" id="FOw-GR-9HG"/>
+                <outlet property="foregroundView" destination="UHj-nC-MvI" id="EYr-e2-h0T"/>
+                <outlet property="foregroundViewTop" destination="9eD-Rq-6JZ" id="ewO-Lo-HNf"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
