@@ -20,14 +20,47 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypr-Ke-dKn" userLabel="Foreground" customClass="RotatedView" customModule="FoldingCell">
                         <rect key="frame" x="20" y="7" width="560" height="165"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这个是展开前的样式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zTZ-ju-JEw">
+                                <rect key="frame" x="48" y="36" width="156" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="zTZ-ju-JEw" firstAttribute="leading" secondItem="ypr-Ke-dKn" secondAttribute="leading" constant="48" id="Ib8-fE-PYH"/>
+                            <constraint firstItem="zTZ-ju-JEw" firstAttribute="top" secondItem="ypr-Ke-dKn" secondAttribute="top" constant="36" id="VQi-a5-TSC"/>
                             <constraint firstAttribute="height" constant="165" id="fa0-ei-uAE"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEC-Xt-JFs" userLabel="Container">
                         <rect key="frame" x="20" y="180" width="560" height="479"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYK-98-NY4">
+                                <rect key="frame" x="205" y="364" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdU-pH-6xh">
+                                <rect key="frame" x="205" y="248" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionBtn2:" destination="udl-6c-b4s" eventType="touchUpInside" id="Mww-MQ-oxi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU3-wU-g4x">
+                                <rect key="frame" x="205" y="131" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionBtn1:" destination="udl-6c-b4s" eventType="touchUpInside" id="gRU-QE-vDs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1500967741" green="0.65038841960000005" blue="0.39619245790000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="479" id="gsw-Ww-eRc"/>
                         </constraints>
@@ -53,11 +86,13 @@
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>
+                <outlet property="actionBtn3" destination="xYK-98-NY4" id="ozp-gF-jc2"/>
                 <outlet property="containerView" destination="fEC-Xt-JFs" id="DIw-52-e3x"/>
                 <outlet property="containerViewTop" destination="Nxg-dg-Xpa" id="tT7-BG-z36"/>
                 <outlet property="foregroundView" destination="ypr-Ke-dKn" id="DeI-SD-jJz"/>
                 <outlet property="foregroundViewTop" destination="vSo-yx-giZ" id="Q9Q-ub-WeF"/>
             </connections>
+            <point key="canvasLocation" x="31" y="59.5"/>
         </tableViewCell>
     </objects>
 </document>

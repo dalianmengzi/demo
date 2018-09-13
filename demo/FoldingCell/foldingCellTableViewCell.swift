@@ -17,7 +17,14 @@ class foldingCellTableViewCell: FoldingCell {
         super.awakeFromNib()
 
     }
+    @IBAction func actionBtn1(_ sender: UIButton) {
+        print("11")
+    }
 
+    @IBAction func actionBtn2(_ sender: UIButton) {
+         print("11")
+    }
+    @IBOutlet weak var actionBtn3: UIButton!
     override func animationDuration(_ itemIndex: NSInteger, type _: FoldingCell.AnimationType) -> TimeInterval {
         let durations = [0.26, 0.2, 0.2]
         return durations[itemIndex]
