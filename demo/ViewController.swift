@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     let disposeBag = DisposeBag()
     @IBOutlet weak var tableView: UITableView!
     let data = Observable.just([
-            Action.init(actionName: "FoldingCell", vc: foldingTableView())
+            Action.init(actionName: "FoldingCell", vc: foldingTableView()),
+            Action.init(actionName: "discuss", vc: discussView())
         ])
     override func viewDidLoad() {
         super.viewDidLoad()

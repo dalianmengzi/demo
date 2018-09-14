@@ -13,6 +13,8 @@
 		3D23AA3B2148BCF0000B0F2C /* foldingCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */; };
 		3D45FDE92149EE4900655F07 /* demoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FDE72149EE4900655F07 /* demoCell.swift */; };
 		3D45FDEA2149EE4900655F07 /* demoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D45FDE82149EE4900655F07 /* demoCell.xib */; };
+		3D45FE22214A40AB00655F07 /* discussCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D45FE20214A40AB00655F07 /* discussCell.swift */; };
+		3D45FE23214A40AB00655F07 /* discussCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D45FE21214A40AB00655F07 /* discussCell.xib */; };
 		3D5AEEBD2148A3250023F291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEEBC2148A3250023F291 /* AppDelegate.swift */; };
 		3D5AEEBF2148A3250023F291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEEBE2148A3250023F291 /* ViewController.swift */; };
 		3D5AEEC22148A3250023F291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEEC02148A3250023F291 /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 		3D5AEEC72148A3250023F291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEEC52148A3250023F291 /* LaunchScreen.storyboard */; };
 		3D5AEED12148B2C20023F291 /* foldingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5AEECF2148B2C20023F291 /* foldingTableView.swift */; };
 		3D5AEED22148B2C20023F291 /* foldingTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5AEED02148B2C20023F291 /* foldingTableView.xib */; };
+		3D65750B214A488F00EEFB70 /* discussView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D657509214A488F00EEFB70 /* discussView.swift */; };
+		3D65750C214A488F00EEFB70 /* discussView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D65750A214A488F00EEFB70 /* discussView.xib */; };
+		3D65750E214A501E00EEFB70 /* sectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D65750D214A501E00EEFB70 /* sectionView.swift */; };
+		3D657510214A502B00EEFB70 /* sectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D65750F214A502B00EEFB70 /* sectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,8 @@
 		3D23AA392148BCF0000B0F2C /* foldingCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foldingCellTableViewCell.xib; sourceTree = "<group>"; };
 		3D45FDE72149EE4900655F07 /* demoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoCell.swift; sourceTree = "<group>"; };
 		3D45FDE82149EE4900655F07 /* demoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = demoCell.xib; sourceTree = "<group>"; };
+		3D45FE20214A40AB00655F07 /* discussCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discussCell.swift; sourceTree = "<group>"; };
+		3D45FE21214A40AB00655F07 /* discussCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = discussCell.xib; sourceTree = "<group>"; };
 		3D5AEEB92148A3250023F291 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5AEEBC2148A3250023F291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D5AEEBE2148A3250023F291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +47,10 @@
 		3D5AEEC82148A3250023F291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5AEECF2148B2C20023F291 /* foldingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldingTableView.swift; sourceTree = "<group>"; };
 		3D5AEED02148B2C20023F291 /* foldingTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = foldingTableView.xib; sourceTree = "<group>"; };
+		3D657509214A488F00EEFB70 /* discussView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discussView.swift; sourceTree = "<group>"; };
+		3D65750A214A488F00EEFB70 /* discussView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = discussView.xib; sourceTree = "<group>"; };
+		3D65750D214A501E00EEFB70 /* sectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sectionView.swift; sourceTree = "<group>"; };
+		3D65750F214A502B00EEFB70 /* sectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sectionView.xib; sourceTree = "<group>"; };
 		5C90F9D94EF0ACCECE7F97B3 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 		EB16D17303947DF4DD8AC98E /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +86,19 @@
 			path = FoldingCell;
 			sourceTree = "<group>";
 		};
+		3D45FE1B214A404900655F07 /* discuss */ = {
+			isa = PBXGroup;
+			children = (
+				3D45FE20214A40AB00655F07 /* discussCell.swift */,
+				3D45FE21214A40AB00655F07 /* discussCell.xib */,
+				3D657509214A488F00EEFB70 /* discussView.swift */,
+				3D65750A214A488F00EEFB70 /* discussView.xib */,
+				3D65750D214A501E00EEFB70 /* sectionView.swift */,
+				3D65750F214A502B00EEFB70 /* sectionView.xib */,
+			);
+			path = discuss;
+			sourceTree = "<group>";
+		};
 		3D5AEEB02148A3250023F291 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +120,7 @@
 		3D5AEEBB2148A3250023F291 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				3D45FE1B214A404900655F07 /* discuss */,
 				3D23AA312148BB97000B0F2C /* libs */,
 				3D5AEECE2148AC320023F291 /* FoldingCell */,
 				3D5AEEBC2148A3250023F291 /* AppDelegate.swift */,
@@ -197,10 +223,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D45FDEA2149EE4900655F07 /* demoCell.xib in Resources */,
+				3D657510214A502B00EEFB70 /* sectionView.xib in Resources */,
+				3D65750C214A488F00EEFB70 /* discussView.xib in Resources */,
 				3D5AEEC72148A3250023F291 /* LaunchScreen.storyboard in Resources */,
 				3D23AA3B2148BCF0000B0F2C /* foldingCellTableViewCell.xib in Resources */,
 				3D5AEEC42148A3250023F291 /* Assets.xcassets in Resources */,
 				3D5AEEC22148A3250023F291 /* Main.storyboard in Resources */,
+				3D45FE23214A40AB00655F07 /* discussCell.xib in Resources */,
 				3D5AEED22148B2C20023F291 /* foldingTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D65750E214A501E00EEFB70 /* sectionView.swift in Sources */,
 				3D23AA3A2148BCF0000B0F2C /* foldingCellTableViewCell.swift in Sources */,
 				3D5AEEBF2148A3250023F291 /* ViewController.swift in Sources */,
+				3D45FE22214A40AB00655F07 /* discussCell.swift in Sources */,
 				3D5AEED12148B2C20023F291 /* foldingTableView.swift in Sources */,
 				3D5AEEBD2148A3250023F291 /* AppDelegate.swift in Sources */,
+				3D65750B214A488F00EEFB70 /* discussView.swift in Sources */,
 				3D45FDE92149EE4900655F07 /* demoCell.swift in Sources */,
 				3D23AA362148BBAF000B0F2C /* FoldingCell.swift in Sources */,
 			);
