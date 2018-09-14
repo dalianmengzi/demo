@@ -499,3 +499,42 @@ private extension UIView {
         return image
     }
 }
+extension String {
+    var html2AttributedString: NSAttributedString? {
+        do {
+            return try NSAttributedString(data: data(using: String.Encoding(rawValue: String.Encoding.utf8.rawValue))!,
+                                          options: [.documentType: NSAttributedString.DocumentType.html,
+                                                    .characterEncoding: String.Encoding.utf8.rawValue],
+                                          documentAttributes: nil)
+        } catch {
+            print("error: ", error)
+            return nil
+        }
+    }
+    var html2String: String {
+        return html2AttributedString?.string ?? ""
+    }
+
+
+    //MARK:获得string内容高度
+
+    func stringHeightWith(fontSize:CGFloat,width:CGFloat)->CGFloat{
+
+        let font = UIFont.systemFont(ofSize: fontSize)
+
+        let size = CGSize.init(width: width, height: CGFloat.greatestFiniteMagnitude)
+
+        let paragraphStyle = NSMutableParagraphStyle()
+
+        paragraphStyle.lineBreakMode = .byWordWrapping;
+
+        let attributes = [NSAttributedStringKey.font:font, NSAttributedStringKey.paragraphStyle:paragraphStyle.copy()]
+
+        let text = self as NSString
+
+        let rect = text.boundingRect(with: size, options:.usesLineFragmentOrigin, attributes: attributes, context:nil)
+
+        return rect.size.height
+
+    }
+}
